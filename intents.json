@@ -1,33 +1,69 @@
 {"intents": [
         {"tag": "greeting",
-         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "patterns": ["Hi", "How are you", "Howdy", "Hey there", "Is anyone there?", "Hello", "Good day", "Whats up"],
          "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
          "context_set": ""
         },
         {"tag": "goodbye",
-         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "patterns": ["Bye", "See you later", "Goodbye", "See you soon", "Have a Good day"],
          "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
          "context_set": ""
         },
         {"tag": "age",
-         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
-         "responses": ["I am 18 years old!", "18 years young!"],
+         "patterns": ["how old are you", "what is your age", "age?"],
+         "responses": ["I am 24 years old!", "24!"],
          "context_set": ""
         },
         {"tag": "name",
-         "patterns": ["what is your name", "what should I call you", "whats your name?"],
-         "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
+         "patterns": ["what is your name", "what are you called?", "whats your name?"],
+         "responses": ["I am Bellatrix.", "I'm Bellatrix!", "I'm Bellatrix", "My name is Bellatrix"],
          "context_set": ""
         },
-        {"tag": "shop",
-         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
-         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+        {"tag": "adventure",
+         "patterns": ["What adventure books do you have", "what adventure books do you recommend?"],
+         "responses": ["The Famous Five series", "The Hunger Games series", "Divergent series", "The Maze Runner Series", "Uglies series", "The Book of Dust", "The curious incident of the dog in the night time", "Percy Jackson series", "City of Bones - Cassandra Clare", "Legend series - Marie Lu"],
          "context_set": ""
         },
-        {"tag": "hours",
-         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
-         "responses": ["We are open 7am-4pm Monday-Friday!"],
+        {"tag": "gothic",
+         "patterns": ["What gothic books do you have", "what gothic books do you recommend?"],
+         "responses": ["Frankenstein", "Dracula", "Jekyll and Hyde", "Wuthering Heights", "The Raven Boys, by Maggie Stiefvater", "The Turn of the Screw", "The Woman in Black"],
          "context_set": ""
+        },
+        {"tag": "mystery",
+            "patterns": ["What mystery books do you have", "what mystery books do you recommend?"],
+            "responses": ["The Lovely Bones", "Gone Girl", "The Woman in White", "The Curious Incident of the Dog in the Nighttime", "The Secret History"],
+            "context_set": ""
+        },
+        {"tag": "romance",
+            "patterns": ["What romance books do you have", "what romance books do you recommend?"],
+            "responses": ["The fault in our Stars - John Green", "Eleanor and Park", "Twilight series", "The Sun is also a Star", "Holding up the Universe"],
+            "context_set": ""
+        },
+        {"tag": "biography/autobiography",
+            "patterns": ["What biography books do you have", "What autobiography books do you have", "What biographies do you have?", "what biographies do you recommend?"],
+            "responses": ["Becoming", "Hope in a ballet shoe", "Going Solo"],
+            "context_set": ""
+        },
+        {"tag": "fantasy",
+            "patterns": ["What fantasy books do you have", "what fantasy books do you recommend?"],
+            "responses": ["Children of Blood and Bone", "Cinder", "City of Bones", "City of Ashes", "Rebel of the Sands", "Twilight", "City of Fallen Angels", "The Graveyard"],
+            "context_set": ""
+        },
+        {"tag": "dystopian",
+            "patterns": ["What dystopian books do you have", "what dystopian books do you recommend?"],
+            "responses": ["The Hunger Games trilogy", "Divergent trilogy", "1984", "The Giver", "Fahrenheit 451", "The Handmaid's Tale", "The Maze Runner trilogy", "Uglies series", "Matched series", "Never let me go"],
+            "context_set": ""
+        },
+        {"tag": "historical fiction",
+            "patterns": ["What historial fiction books do you have", "what historical fiction books do you recommend?"],
+            "responses": ["The Book Thief", "The Color Purple", "Atonement", "The Boy in the Striped Pyjamas", "The House of the Spirits", "Beloved", "Things fall apart", "The Kite Runner", "Code Name Verity", "Chains", "Number the Stars", "The other countess - Eve Edwards", "At the sign of the sugarered plum - Mary Hooper", "Petals in the Ashes"],
+            "context_set": ""
+        },
+        {"tag": "thriller",
+            "patterns": ["What thrillers do you have", "what thrillers do you recommend?"],
+            "responses": ["One of us is lying", "Pretty Little Liars series", "City of Saints and Thieves", "Heist Society series = Ally Carter", "The Knife of Never lettiing go - Patrick Ness", "Gone - Michael Grant", "The Maze Runner Series - James Dashner"],
+            "context_set": ""
         }
+   
    ]
 }
